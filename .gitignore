@@ -1,0 +1,30 @@
+**/target
+.idea
+
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/.bloop/
+.history
+.cache
+.lib/
+.metals/
+.bloop/
+.bsp/
+
+### Scala ###
+*.class
+*.log
+
+### intellij ###
+.idea/
+*.iml
+
+Chart.lock
+*.tgz
+requirements.lock
+
